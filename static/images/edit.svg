@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="27px" viewBox="0 0 26 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon/formatting/edit/32</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3,27 L29,27 L29,29 L3,29 L3,27 Z M25.4141,9 C26.1943789,8.21876049 26.1943789,6.95313951 25.4141,6.1719 L21.8281,2.5859 C21.0464508,1.80661158 19.7816492,1.80661158 19,2.5859 L4,17.5859 L4,24 L10.4141,24 L25.4141,9 Z M20.4131,3.999 L24,7.5859 L21,10.5859 L17.4133,6.9992 L20.4131,3.999 Z M6,22 L6,18.4141 L15.9993,8.4134 L19.5859,12 L9.5859,22 L6,22 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-205.000000, -166.000000)">
+            <g id="icon/formatting/edit/32" transform="translate(202.000000, 164.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="icon-color" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

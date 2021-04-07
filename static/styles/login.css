@@ -1,0 +1,52 @@
+body.login{overflow: hidden; background:#ffffff url(../images/login-bg1.png) no-repeat right center;}
+.login-page .main-card{background:#ffffff;box-shadow: -1px -1px 34px rgba(0, 0, 0, 0.12);border-radius: 4px;border: 0;overflow: hidden;margin: 20px 30px;height: calc(100vh - 40px);}
+.login-page .side-section{height:100%;text-align: center;padding:30px 0; }
+.login-page .side-section .card{width:100%; background-color: #fff; border:0;}
+.login-page .side-section .card .card-body{padding:2rem;height:426px;width:306px;}
+.stamp{width:50px; height: 50px; margin: 0 auto 20px;}
+.stamp > img{width:100%;}
+#logintabContent{padding: 20px 0 0 0}
+.login-page .logo{padding-top: 36px ;margin-bottom: 50px}
+.login-page .form-section{padding:50px 75px 50px 75px;}
+.login-page .form-section h1{font-size:16px;color:#616161; margin-bottom: 26px}
+.login-page .form-section p{color:#212121;font-weight:600;}
+.login-page .form-section .form-group{margin-bottom: 22px}
+.login-page .form-section label{font-size: 12px; color: #6e6c6c;font-weight: 600;}
+.login-page .form-section .form-control{border: 0;border: 1px solid #83a8bc;border-radius: 0;height: 42px; border-radius:2px;}
+.login-page .form-section .form-control:focus{border-bottom: 1px solid #ced4da!important;}
+.login-page .form-section .form-check{margin-top:0;}
+.input-group-text {background-color: transparent;border: 0;border-bottom: 1px solid #ced4da;border-radius: 0;}
+.login-page .form-section a.btn-link{    color: #636161;font-size: 12px;font-weight: 600;line-height: 24px;}
+.login-page .form-section .btn{padding:14px 36px; background: #3bc3ff; border:0;font-size: 18px;    }
+.form-section .btn-link{line-height: 24px}
+.custom-switch{display: inline-block;margin-right:5px;}
+.custom-control-input {position: absolute;left: 0;z-index: -1;width: 1rem;height: 1.25rem;opacity: 0;}
+.custom-control-label::before, .custom-file-label, .custom-select {transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+.custom-control-input:checked~.custom-control-label::before {color: #fff;border-color: #007bff;background-color: #007bff;}
+.custom-switch .custom-control-label::before {width: 36px;pointer-events: all;border-radius: 1.5rem;}
+.custom-control-label::before {position: absolute;top: .25rem;left: -1.5rem;display: block;width: 1rem;height: 20px;pointer-events: none;content: "";background-color: #fff;border: #adb5bd solid 1px;}
+.custom-control-label::after {position: absolute;top: .25rem;left: -1.5rem;display: block;width: 1rem;height: 1rem;content: "";background: no-repeat 50%/50% 50%;}
+.custom-switch .custom-control-label::after {top: calc(.25rem + 2px);left: calc(-2.25rem + 2px);width: calc(20px - 4px);height: calc(20px - 4px);background-color: #adb5bd;border-radius: 50%;transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-transform .15s ease-in-out;transition: transform .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;transition: transform .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-transform .15s ease-in-out;}
+.custom-switch .custom-control-input:checked~.custom-control-label::after {background-color: #fff;-webkit-transform: translateX(16px);transform: translateX(16px);}
+#loginCarousel{margin-top:15%; width:306px;box-shadow: 1px -1px 12px rgba(0, 0, 0, 0.08)}
+.owl-dots{display: none}
+.owl-nav button {width: 44px;height: 44px;border-radius: 50%;position: absolute;top: 50%;transform: translateY(-50%);background: rgba(255, 255, 255, 0.20) !important;margin: 0;transition: all 0.3s ease-in-out;    box-shadow: 1px 2px 5px rgb(0 0 0 / 0.30);}
+.owl-carousel .owl-nav button.owl-next span, .owl-carousel .owl-nav button.owl-prev span {font-size: 50px;font-family: 'Open Sans';font-weight: 300;color: #888;padding: 0px 13px;line-height: 24px;  }
+.owl-nav button:hover {background: rgba(255, 255, 255, 0.50) !important;}
+.owl-nav button.owl-prev {left: -62px;}
+.owl-nav button.owl-next {right: -62px;}
+@media(min-width:992px){
+	.login-page .main-card{background:#ffffff url(../images/login-bg3.png) no-repeat right top; margin: 20px 0px}.login-page .form-section {
+  
+    padding: 50px 0 50px 75px;
+}
+}
+@media(max-width:768px){
+	body.login {overflow: hidden;background: #ffffff url(../images/login-bg1.png) no-repeat right top;background-size: cover;}
+    .login-page{overflow:hidden;}
+	.login-page .form-section{padding:40px 30px}
+	.login-page .card{padding:30px}
+	.login-page .side-section{display: none}
+	.login-page .logo{padding:20px 0;}
+}
+

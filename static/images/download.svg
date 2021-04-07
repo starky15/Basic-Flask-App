@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="28px" viewBox="0 0 24 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon/file/download/32</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M26,15 L24.59,13.59 L17,21.17 L17,2 L15,2 L15,21.17 L7.41,13.59 L6,15 L16,25 L26,15 L26,15 Z M26,24 L26,28 L6,28 L6,24 L4,24 L4,28 L4,28 C4,29.1045695 4.8954305,30 6,30 L26,30 C27.1045695,30 28,29.1045695 28,28 L28,28 L28,24 L26,24 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-206.000000, -306.000000)">
+            <g id="icon/file/download/32" transform="translate(202.000000, 304.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="icon-color" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

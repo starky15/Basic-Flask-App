@@ -1,0 +1,1 @@
+{"AutoImportExpressionFilter": [{"op": "Any", "prop": "Type", "val": "poller"}], "AutoImportStatus": ["Down", "Up"], "AutoImportVirtualTypes": ["Physical", "Virtual"], "AutoImportVlanPortTypes": ["Unknown", "Access", "Trunk"]}

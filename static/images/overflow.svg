@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="4px" height="18px" viewBox="0 0 4 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>mdpi/overflow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,6 C12.8284271,6 13.5,5.32842712 13.5,4.5 C13.5,3.67157288 12.8284271,3 12,3 C11.1715729,3 10.5,3.67157288 10.5,4.5 C10.5,5.32842712 11.1715729,6 12,6 Z M12,13.5 C12.8284271,13.5 13.5,12.8284271 13.5,12 C13.5,11.1715729 12.8284271,10.5 12,10.5 C11.1715729,10.5 10.5,11.1715729 10.5,12 C10.5,12.8284271 11.1715729,13.5 12,13.5 Z M12,21 C12.8284271,21 13.5,20.3284271 13.5,19.5 C13.5,18.6715729 12.8284271,18 12,18 C11.1715729,18 10.5,18.6715729 10.5,19.5 C10.5,20.3284271 11.1715729,21 12,21 Z" id="path-1"></path>
+    </defs>
+    <g id="console" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICONS" transform="translate(-497.000000, -375.000000)">
+            <g id="icon/navigation/overflow-menu/24" transform="translate(487.000000, 372.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="icon-color" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

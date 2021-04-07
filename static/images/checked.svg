@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon/status/checkmark-filled/20</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="10.5"></circle>
+        <polygon id="path-3" points="10.5 16.125 6.75 12.375 7.9425 11.25 10.5 13.7625 16.0575 8.25 17.25 9.435"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-189.000000, -241.000000)">
+            <g id="icon/status/checkmark-filled/24" transform="translate(188.000000, 240.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="icon-color" fill="#24A148" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="icon-color" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

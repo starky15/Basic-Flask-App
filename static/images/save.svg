@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon/formatting/save/32</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M27.71,9.29 L22.71,4.29 C22.5212812,4.10281349 22.265803,3.99846324 22,3.99998326 L6,3.99998326 C4.8954305,3.99998326 4,4.8954305 4,6 L4,26 C4,27.1045695 4.8954305,28 6,28 L26,28 C27.1045695,28 28.0000167,27.1045695 28.0000167,26 L28.0000167,10 C28.0015368,9.73419702 27.8971865,9.47871883 27.71,9.29 Z M12,6 L20,6 L20,10 L12,10 L12,6 Z M20,26 L12,26 L12,18 L20,18 L20,26 Z M22,26 L22,18 C22,16.8954305 21.1045695,16 20,16 L12,16 C10.8954305,16 10,16.8954305 10,18 L10,26 L6,26 L6,6 L10,6 L10,10 C10,11.1045695 10.8954305,12 12,12 L20,12 C21.1045695,12 22,11.1045695 22,10 L22,6.41 L26,10.41 L26,26 L22,26 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-206.000000, -759.000000)">
+            <g id="icon/formatting/save/32" transform="translate(202.000000, 755.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="icon-color" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
