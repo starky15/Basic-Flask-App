@@ -10,11 +10,16 @@ my_path = os.path.abspath(os.path.dirname(__file__))
 main_path = os.path.join(my_path, "")
 
 # app = Flask(__name__)
-
+tool_name = 'tooler'
+version = '2020'
 
 app = Flask(__name__)
 app.debug = False
 app.config['SECRET_KEY'] = '$_0031$%^1<.,{{09@)cvsj__&'
+
+Admin_Root = os.environ['Admin_Root']
+path = ''
+
 
 @app.route("/")
 def index():
@@ -28,14 +33,72 @@ def launch():
     
     
 
-@app.route("/launched", methods=['GET', 'POST'])
-def launched():
+@app.route("/onboardFD", methods=['GET', 'POST'])
+def submit_form_page():
     if request.method=="POST":
-    	prop = request.form.get('prop')
-    	val = request.form.get('val')
-    	print(prop)
-    	print(val)
-    	return render_template('layout.html')
+        content = request.json
+        AutoImportStatus = []
+        AutoImportVlanPortTypes = []
+        AutoImportVirtualTypes = []
+        AutoImportExpressionFilter =[]
+        
+        for j in range(len(content)):
+            empty_dic = content[j].copy()
+            for i in content[j].keys():
+                if i == 'status1':
+                    AutoImportStatus.append(content[j][i])
+                    del empty_dic[i]
+                if i == 'status2':
+                    AutoImportStatus.append(content[j][i]) 
+                    del empty_dic[i]
+                if i == 'status3':
+                    AutoImportStatus.append(content[j][i]) 
+                    del empty_dic[i]
+
+                if i == 'port_mode1':
+                    AutoImportVlanPortTypes.append(content[j][i])
+                    del empty_dic[i]
+                if i == 'port_mode2':
+                    AutoImportVlanPortTypes.append(content[j][i])
+                    del empty_dic[i]
+                if i == 'port_mode3':
+                    AutoImportVlanPortTypes.append(content[j][i])
+                    del empty_dic[i]
+
+                if i == 'hardware1':
+                    AutoImportVirtualTypes.append(content[j][i])
+                    del empty_dic[i]
+                if i == 'hardware2':
+                    AutoImportVirtualTypes.append(content[j][i]) 
+                    del empty_dic[i]
+                if i == 'hardware3':
+                    AutoImportVirtualTypes.append(content[j][i])  
+                    del empty_dic[i]
+
+            AutoImportExpressionFilter.append(empty_dic)
+
+        
+        final_dict = {
+        'AutoImportVirtualTypes' : list(set(AutoImportVirtualTypes)),
+        'AutoImportVlanPortTypes' : list(set(AutoImportVlanPortTypes)),
+        'AutoImportStatus' : list(set(AutoImportStatus)),
+        'AutoImportExpressionFilter' : AutoImportExpressionFilter
+        }
+        
+
+        try:
+            file = 'sol_interface_config.json'
+            f = open(file,'w')
+            f.write(json.dumps(final_dict))
+            f.close()
+            src = file
+            dst = path+file
+            print(dst)
+            copyfile(src, dst)
+        except:
+            pass
+        
+    return jsonify(status="pass")
 
 
 if __name__ == "__main__":
@@ -49,4 +112,4 @@ if __name__ == "__main__":
     if argument.port:
         port = argument.port
 
-    app.run(debug=True,host='0.0.0.0', port=port)
+    app.run(debug=False,host='0.0.0.0', port=port)
